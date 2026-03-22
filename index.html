@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyBirthday</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgMusic" src="happyBirthdayCat.mp3" loop autoplay ></audio>
+    <div class="main">
+        <div class="container"></div>
+        <div class="happyBirthdayText">
+            <img src="gif/happyBirthday.gif">
+            <div id="text"></div>
+            <div id="name"></div>
+        </div>
+        <!-- flip book  -->
+        <div class="c">
+        <button id="prevBtn"><i class="fa-solid fa-circle-arrow-left"></i></button>
+        <div id="book">
+
+            <div class="paper ">
+                <div class="front">
+                    <div class="frontContent">
+                        <img src="images.jpg" alt="">
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="backContent">
+                        <img src="image2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper ">
+                <div class="front">
+                    <div class="frontContent">
+                        <img src="image3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="backContent">
+                        <img src="image4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper ">
+                <div class="front">
+                    <div class="frontContent">
+                        <img src="images6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="backContent">
+                        <img src="image7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper ">
+                <div class="front">
+                    <div class="frontContent">
+                        <img src="images(1).jpg" alt="">
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="backContent">
+                        <img src="img_9879.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button id="nextBtn"><i class="fa-solid fa-circle-arrow-right"></i></button>
+        </div>
+        <!-- flip book  -->
+        <div class="danceCat"  id="catDance">
+            <img src="gif/happyDance.gif">
+        </div>
+        <div class="catMessage"></div>
+    </div>
+
+</body>
+<script src="icons.js"></script>
+<script src="script.js"></script>
+</html>
